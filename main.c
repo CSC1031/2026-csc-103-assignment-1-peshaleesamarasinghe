@@ -46,6 +46,19 @@ int main()
 
     }
 
+    if (sub1 >= sub2 && sub1 >= sub3)
+    {
+        printf("Highest Subject: Mathematics (%d)\n", sub1);
+    }
+    else if (sub2 >= sub1 && sub2 >= sub3)
+    {
+        printf("Highest Subject: Science (%d)\n", sub2);
+}
+    else
+    {
+        printf("Highest Subject: English (%d)\n", sub3);
+    }
+
 
     return 0;
 }
